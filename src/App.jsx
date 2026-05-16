@@ -17,9 +17,9 @@ function App() {
           <img src={viteLogo} className="vite" alt="Vite logo" />
         </div>
         <div>
-          <h1>Get started</h1>
+          <h1>Начало работы</h1>
           <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
+            Отредактируйте <code>src/App.jsx</code> и сохраните для проверки <code>HMR</code>
           </p>
         </div>
         <button
@@ -27,7 +27,7 @@ function App() {
           className="counter"
           onClick={() => setCount((count) => count + 1)}
         >
-          Count is {count}
+          Счётчик: {count}
         </button>
       </section>
 
@@ -38,19 +38,19 @@ function App() {
           <svg className="icon" role="presentation" aria-hidden="true">
             <use href="/icons.svg#documentation-icon"></use>
           </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
+          <h2>Документация</h2>
+          <p>Ответы на ваши вопросы</p>
           <ul>
             <li>
               <a href="https://vite.dev/" target="_blank">
                 <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
+                Изучить Vite
               </a>
             </li>
             <li>
               <a href="https://react.dev/" target="_blank">
                 <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
+                Узнать больше
               </a>
             </li>
           </ul>
@@ -59,8 +59,8 @@ function App() {
           <svg className="icon" role="presentation" aria-hidden="true">
             <use href="/icons.svg#social-icon"></use>
           </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
+          <h2>Свяжитесь с нами</h2>
+          <p>Присоединяйтесь к сообществу Vite</p>
           <ul>
             <li>
               <a href="https://github.com/vitejs/vite" target="_blank">
